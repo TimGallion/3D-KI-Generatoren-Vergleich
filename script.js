@@ -33,8 +33,8 @@ const modelle = [
     hint: "Modell A",
     animationen: [
       { clip: "Walk", label: "Gehen" },
-      { clip: "WalkFast", label: "Gehen schnell" },
-      { clip: "LadyWalk", label: "Eleganter Gang" },
+     
+      
       { clip: "Run", label: "Rennen" },
       { clip: "RunFast", label: "Rennen schnell" },
     ],
@@ -67,6 +67,12 @@ const modelle = [
     src: "models/mixamo.glb",
     name: "Mixamo",
     hint: "Modell C",
+      animationen: [
+      { clip: "Idle", label: "Idle" },
+      { clip: "Walk", label: "Gehen" },
+      { clip: "SlowRun", label: "Rennen" },
+       { clip: "FastRun", label: "Rennen schnell" },
+    ],
     kamera: {
       orbit: "0deg 75deg 4.5m",
       // Seit der Boden mit exportiert wird, ist die Szenen-Bounding-Box
